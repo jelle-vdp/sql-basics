@@ -21,7 +21,7 @@ $groups = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 <?php foreach($groups as $group): ?>
 
-    <p><?= $group["name"] ?> is active in <?= $group["location"] ?></p>
+    <p>The headquarters of <?= $group["name"] ?> are in <?= $group["location"] ?></p>
 
 <?php endforeach; ?>
 
